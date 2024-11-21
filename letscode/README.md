@@ -1,2 +1,0 @@
-# LetsCode
-Praktikum Pemrograman
