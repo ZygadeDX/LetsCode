@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminar Online</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class=" py-1 lg:py-2 w-full bg-transparent lg:relative z-50">
+    <nav class="z-10 sticky top-0 left-0 right-0 max-w-4xl xl:max-w-5xl mx-auto px-5 py-2.5 lg:border-none lg:py-4">
+        <div class="nav" class="flex items-center justify-between">
+            <button>
+                <div class="flex items-center space-x-2">
+                  <a class="text-black font-bold font-bold text-2xl" href="index.html">LetsSeminar</a>
+                    
+                </div>
+            </button>
+            <div class="hidden lg:block">
+                <ul class="flex space-x-10 text-base font-bold text-black/60">
+                    <li
+                        class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
+                        <a href="deskripsi.html">Deskripsi</a>
+                    </li>
+                    <li
+                        class="hover:underline hover:underline-offset-4 hover:w-fit transition-all duration-100 ease-linear">
+                        <a href="pembicara.html">Pembicara</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="hidden lg:flex lg:items-center gap-x-2">
+                <button class="flex items-center text-black  justify-center px-6 py-2.5 font-semibold">Sign up</button>
+                <button class="flex items-center justify-center rounded-md bg-[#4A3BFF] text-white px-6 py-2.5 font-semibold hover:shadow-lg hover:drop-shadow transition duration-200">Login</button>
+            </div>
+            <div class="flex items-center justify-center lg:hidden">
+                <button class="focus:outline-none text-slate-200 dark:text-white"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" class="text-2xl text-slate-800 dark:text-white focus:outline-none active:scale-110 active:text-red-500" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<section class="relative flex flex-wrap lg:h-screen lg:items-center">
+    <div class="px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+      <div class="mx-auto max-w-lg text-center">
+        <h1 class="text-2xl font-bold sm:text-3xl">Get started today!</h1>
+  
+        <p class="mt-4 text-gray-500">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla eaque error neque
+          ipsa culpa autem, at itaque nostrum!
+        </p>
+      </div>
+  
+      <form action="#" class="mx-auto mb-0 mt-8 max-w-md space-y-4 border-gray-200">
+        <div>
+          <label for="email" class="sr-only font-bold">Email</label>
+  
+          <div class="relative">
+            <input
+              type="email"
+              class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+              placeholder="Enter email"
+            />
+  
+            <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 text-gray-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+  
+        <div>
+          <label for="password" class="sr-only">Password</label>
+  
+          <div class="relative">
+            <input
+              type="password"
+              class="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+              placeholder="Enter password"
+            />
+  
+            <span class="absolute inset-y-0 end-0 grid place-content-center px-4">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4 text-gray-400"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+  
+        <div class="flex items-center justify-between">
+          <p class="text-sm text-gray-500">
+            No account?
+            <a class="underline" href="index.html">Sign up</a>
+          </p>
+  
+          <button
+            type="submit"
+            class="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"
+          >
+            Sign in
+          </button>
+        </div>
+      </form>
+    </div>
+  
+    <div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
+      <img
+        alt=""
+        src="photo.jpg"
+        class="absolute inset-0 h-full w-full object-cover"
+      />
+    </div>
+  </section>
+
+  <script src="myScript.js"></script>
+
+  <footer class="foter">
+    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col items-center">
+            <p class="text-center text-sm">
+                &copy; 2023 Nama Perusahaan. All rights reserved.
+            </p>
+            <div class="mt-2">
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Terms of Service</a>
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
